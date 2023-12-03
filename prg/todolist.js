@@ -1,26 +1,3 @@
-function getData() {
-return new Promise((resolve, reject) => {
-setTimeout(() => {
-const data = 'Async data';
-resolve(data);
-}, 2000);
-});
-}
-// Async function using the await keyword
-async function processData() {
-try {
-console.log('Fetching data...');
-const result = await getData();
-console.log('Data:', result);
-console.log('Data processed successfully!');
-} catch (error) {
-console.error('Error:', error);
-}
-}
-// Call the async function
-processData();
-
-prg5
 TodoListClass.js
 import React, { Component } from 'react';
 class TodoListClass extends Component {
