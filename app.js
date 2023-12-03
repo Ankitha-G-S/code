@@ -18,6 +18,6 @@ return (
 }
 export default App;
 
-npx create-react-app todo-list-app
-cd todo-list-app
-npm install bootstrap
+//npx create-react-app todo-list-app
+//cd todo-list-app
+//npm install bootstrap
